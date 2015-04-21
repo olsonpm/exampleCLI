@@ -1,0 +1,26 @@
+{
+  "name": "exampleCLI",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olsonpm/exampleCLI.git"
+  },
+  "author": "Phil Olson <philip.olson@protonmail.ch> (https://github.com/olsonpm)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olsonpm/exampleCLI/issues"
+  },
+  "homepage": "https://github.com/olsonpm/exampleCLI",
+  "bin": {
+    "examplecli": "./bin/cli.js"
+  },
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "commander": "^2.8.0"
+  }
+}
